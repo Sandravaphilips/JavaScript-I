@@ -23,3 +23,7 @@ subtract(1,2);
 exampleArray = [1,2,3,4];
 const triple = exampleArray.map((num) => num * 3);
 console.log(triple);
+
+// STRETCH TASK
+let totalArray = exampleArray.reduce((total, num) => total + num);
+console.log(totalArray);
